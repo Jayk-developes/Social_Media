@@ -1,9 +1,10 @@
 <script setup lang="ts">
 
+import AddCard from "../Cards/AddCard.vue";
 </script>
 
 <template>
-<h1>3</h1>
+    <AddCard />
 </template>
 
 <style scoped>

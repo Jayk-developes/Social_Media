@@ -13,9 +13,9 @@ const tmp_data = {
         <div class="pic">
             <div style="width: 100px; height: 100px; background-color: black"></div>
         </div>
-        <div class="name"><h1>{{tmp_data.name}}</h1></div>
-        <div class="title"><strong>{{tmp_data.title}}</strong></div>
-        <div class="descr">{{tmp_data.descr}}</div>
+        <div class="name"><h1>{{ tmp_data.name }}</h1></div>
+        <div class="title"><strong>{{ tmp_data.title }}</strong></div>
+        <div class="descr">{{ tmp_data.descr }}</div>
     </fieldset>
 
 </template>
