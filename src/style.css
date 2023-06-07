@@ -5,7 +5,7 @@
     font-weight: 400;
 
     color-scheme: light;
-    background-color: #fff;
+    background-color: #eee;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -21,7 +21,7 @@ fieldset {
     width: 60% !important;
     border: rgba(100, 100, 100, .3) solid 1px;
     border-radius: .5rem;
-    background-color: rgba(60, 60, 65, 0.1);
+    background-color: white;
     padding: 1rem 2rem 1rem 2rem;
 }
 
