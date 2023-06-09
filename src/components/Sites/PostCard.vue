@@ -9,7 +9,7 @@ const props = defineProps<{
 
 <template>
     <fieldset class="grid-container" style="width: 625px !important; margin: 1.5rem 0 1.5rem 0">
-        <div class="pic">{{ props.post.url }}</div>
+        <img :src="props.post.url" class="pic" :alt="props.post.url">
         <div class="title">{{ props.post.title }}</div>
         <div class="like">&lt;3</div>
         <div class="comment">"..."</div>
@@ -29,7 +29,8 @@ const props = defineProps<{
     " pic pic pic"
     "title title title"
     "like comments share"
-    ". . date"
+    ". . date";
+    box-shadow: gray 2px 2px 16px;
 }
 
 .pic {
